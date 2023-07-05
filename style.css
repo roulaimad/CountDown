@@ -1,0 +1,144 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.button {
+  margin-top: 30px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  color: #000;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #c4c4c4;
+  color: #000;
+}
+
+.container1 {
+  margin: 0%;
+  width: 100vw;
+  height: 100vh;
+  /* background-image: url(images/wallpaper2.jpg); */
+  background-position: center;
+  background-size: cover;
+  font-family: Roboto;
+  color: white;
+  padding-left: 40px;
+  box-sizing: border-box; /* padding inside not outside reservs total width */
+}
+#wallpaper {
+  filter: brightness(70%);
+  margin: 0%;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  width: 100vw;
+  height: 100vh;
+  z-index: -10;
+}
+
+.logo {
+  width: 150px;
+}
+#SecondEdition {
+  width: 400px;
+  height: auto;
+  position: absolute;
+  right: 10%;
+  top: 10%;
+}
+
+.launch-time {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+  margin: 0%;
+}
+
+.launch-time p {
+  font-size: 60px;
+}
+#pretitle {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin: 0%;
+}
+#title {
+  font-size: 100px;
+  font-weight: 600;
+  margin: 0%;
+}
+#title > span {
+  color: orange;
+  font-size: 80px;
+}
+
+.dhms > div {
+  width: 100%;
+}
+.dhms > p {
+  margin: 0%;
+}
+.dhms {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin: 0%;
+}
+
+.dhms > p {
+  font-size: 100px;
+  font-weight: 600;
+}
+
+#rightImage {
+  z-index: -1;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  width: 1100px;
+  mask-image: url("images/splash.svg");
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: bottom;
+  -webkit-mask-image: url("images/splash.svg");
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: bottom;
+}
+.description {
+  width: 35%;
+}
+.description > p {
+  font-family: roboto;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+}
+#ScndEdition {
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+.text {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
